@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuites.SampleSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-07-29T09:25:33" hostname="PRINHYLTPDL0746" time="9.317">
+  <properties/>
+  <testcase name="Navigate to YahooLoginPage and Enter Credentials" classname="testSuites.SampleSuite" time="9.317">
+    <failure message="geb.error.InvalidPageContent: Definition of page component template '$' of 'yahooModules.YahooLoginModule@7c81cd00' is invalid, params must be either a Closure, or Map and Closure (args were: [class java.lang.String])" type="geb.error.InvalidPageContent">geb.error.InvalidPageContent: Definition of page component template '$' of 'yahooModules.YahooLoginModule@7c81cd00' is invalid, params must be either a Closure, or Map and Closure (args were: [class java.lang.String])
+	at geb.content.PageContentTemplateBuilder.throwBadInvocationError(PageContentTemplateBuilder.groovy:75)
+	at geb.content.PageContentTemplateBuilder.methodMissing(PageContentTemplateBuilder.groovy:61)
+	at yahooModules.YahooLoginModule._clinit__closure1(YahooLoginModule.groovy:16)
+	at yahooModules.YahooLoginModule._clinit__closure1(YahooLoginModule.groovy)
+	at geb.content.PageContentTemplateBuilder.build(PageContentTemplateBuilder.groovy:94)
+	at geb.content.PageContentTemplateBuilder.build(PageContentTemplateBuilder.groovy:126)
+	at geb.Module.init(Module.groovy:74)
+	at geb.navigator.AbstractNavigator.module(AbstractNavigator.groovy:361)
+	at geb.navigator.AbstractNavigator.module(AbstractNavigator.groovy:352)
+	at geb.content.NavigableSupport.module(NavigableSupport.groovy:207)
+	at geb.content.PageContentTemplateFactoryDelegate.module(PageContentTemplateFactoryDelegate.groovy:51)
+	at yahooPages.YahooLoginPage._clinit__closure2$_closure3(YahooLoginPage.groovy:14)
+	at yahooPages.YahooLoginPage._clinit__closure2$_closure3(YahooLoginPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:101)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:86)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:58)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:99)
+	at yahooPages.YahooLoginPage.enterLoginCredentials(YahooLoginPage.groovy:20)
+	at geb.Browser.methodMissing(Browser.groovy:207)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at testSuites.SampleSuite.Navigate to YahooLoginPage and Enter Credentials(SampleSuite.groovy:19)
+</failure>
+  </testcase>
+  <system-out><![CDATA[ddddddddddddddddddfff]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1) on port 16698
+Only local connections are allowed.
+]]></system-err>
+</testsuite>

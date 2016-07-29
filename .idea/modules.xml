@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yahoo.iml" filepath="$PROJECT_DIR$/.idea/modules/yahoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yahoo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/yahoo_main.iml" group="yahoo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yahoo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/yahoo_test.iml" group="yahoo" />
+    </modules>
+  </component>
+</project>
